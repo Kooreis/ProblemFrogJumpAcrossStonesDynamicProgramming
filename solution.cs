@@ -1,3 +1,2 @@
-function canCross(stones) {
-    if (stones[1] !== 1) return false;
-}
+const dp = Array.from({ length: stones.length }, () => new Set());
+    dp[1].add(1);
